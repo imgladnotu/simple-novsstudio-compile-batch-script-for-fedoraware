@@ -1,7 +1,7 @@
 ::prerequisites: git, nuget, msbuild (visual studio commandline build tools)
 ::if installing nuget from scoop, make sure that your nuget.config has the official nuget repository as a source
 
-::add two colons (::) before the line of the command on whatever step you wish to skip that step alltogether
+::add two colons (::) before the line of the command on whatever step you wish to skip all together
 ::open/execute with vsdev/msbuild powershell
 ::run me by adding .\ before the filename
 
