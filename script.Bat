@@ -13,7 +13,7 @@ nuget restore Fedoraware
 msbuild /m /p:PlatformToolset="v143" /p:Configuration=Release /p:PlatformTarget=x86 /p:Platform=x86 /p:Instruction_Set=AVX2 Fedoraware
 
 ::delete old copy, specify your old DLL's location here, KEEP the quotation marks.
-rm "C:\Users\Charlie-Delta-Echo\Desktop\ldr\Fware(Release).dll"
+rm "C:\Specify\Old\DLL\Here\Fware(Release).dll"
 
 ::customize the 2nd part with your own directory you want
-cp "Fedoraware/Release/Fware(Release).dll" "C:\Users\Charlie-Delta-Echo\Desktop\ldr\"
+cp "Fedoraware/Release/Fware(Release).dll" "C:\Specify\Where\To\Put\New\DLL\Here\"
